@@ -5,14 +5,13 @@ class AccountNumber{
     encode(name){
         let account_number = [];
         name.toUpperCase().split("").map(letter => {
-            account_number.push(AONEZTWOSIX[letter])
+            account_number.push(letter_number[letter])
         })
 
         return account_number.join("")
     }
 
     decode(input_account_number){
-        let number_of_letters = (input_account_number.split("").length) / 2;
         let account_number_array = [];
         let account_name = [];
 
@@ -25,7 +24,7 @@ class AccountNumber{
         }
 
         account_number_array.map(numberLetter => {
-            account_name.push(ONEATWOSIXZ[numberLetter])
+            account_name.push(number_letter[numberLetter])
         })
 
         return (account_name.join(""))
