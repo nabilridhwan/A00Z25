@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
 body{
     width: 80%;
     margin: auto;
@@ -7,7 +7,7 @@ body{
 }
 
 h3{
-    font-weight: 400;
+    font-weight: 700;
 }
 
 input{
@@ -15,6 +15,6 @@ input{
     padding: 20px;
 }
 
-a{
+a:visited{
     color: black;
 }
