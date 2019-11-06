@@ -60,7 +60,7 @@ class AccountNumber{
     constructor(){
     }
 
-    encrypt(name){
+    encode(name){
         let account_number = [];
         name.toUpperCase().split("").map(letter => {
             account_number.push(AONEZTWOSIX[letter])
@@ -69,7 +69,7 @@ class AccountNumber{
         return account_number.join("")
     }
 
-    decrypt(input_account_number){
+    decode(input_account_number){
         let number_of_letters = (input_account_number.split("").length) / 2;
         let account_number_array = [];
         let account_name = [];
