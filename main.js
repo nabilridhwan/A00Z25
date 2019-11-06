@@ -6,9 +6,9 @@ input.addEventListener("input", () => {
 
     // User inputted their name to retreive number (encode)
     if(isNaN(input.value)){
-        output.value = ac.encrypt(input.value);
+        output.value = ac.encode(input.value);
         
     }else{
-        output.value = ac.decrypt(input.value);
+        output.value = ac.decode(input.value);
     }
 })
