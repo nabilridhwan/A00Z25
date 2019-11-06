@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+body{
+    width: 80%;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+h3{
+    font-weight: 700;
+}
+
+input{
+    font-family: 'Roboto Mono', monospace;
+    padding: 20px;
+}
+
+a:visited{
+    color: black;
+}
